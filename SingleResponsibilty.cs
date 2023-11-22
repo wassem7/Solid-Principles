@@ -65,7 +65,7 @@ class ForumRegisteration
         _logger.LogInformation();
     }
 
-    static void Main()
+    static void main()
     {
         ForumRegisteration F1 = new ForumRegisteration();
         User user = new User("seemzy");
