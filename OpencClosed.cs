@@ -7,9 +7,6 @@
     }
 
 
-
-
-
     class Visa : ICardType
     {
         public void GetTransactionFee(double amount)
