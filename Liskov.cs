@@ -10,7 +10,7 @@ namespace SolidPrinciples
     internal class Liskov
     {
 
-        static void Main()
+        static void main()
         {
             Chair C1 = new OfficeChair();
             C1.GetColor();
