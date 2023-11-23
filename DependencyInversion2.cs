@@ -1,7 +1,7 @@
 ﻿class DependencyInversion
 {
 
-    static void Main()
+    static void main()
     {
         SalaryCalculator salarycalculator2022 = new SalaryCalculator();
         Employee E1 = new Employee(salarycalculator2022, "Kwame Darkwa",hours:3.12,rate:23.23);
